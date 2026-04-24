@@ -63,6 +63,14 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.video-container video {
+    width: 100%;
+    max-width: 900px; /* Controls how large the video gets */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
 /* Zig-Zag Section Layout */
 section {
     display: flex;
@@ -109,6 +117,55 @@ ul {
 
 li {
     font-size: 16px;
-    color: #666;
+    color: #575757;
     margin-bottom: 10px;
+}
+
+.website-resources {
+    justify-content: center;
+    text-align: center;
+}
+
+.website-resources h2 {
+    text-align: center;
+}
+
+.website-resources ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.website-resources ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.website-resources ul li span {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.html {
+    order: 1;
+}
+.css {
+    order: 2;
+}
+.javascript {
+    order: 3;
+}
+.website-resources img {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.website-resources img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
