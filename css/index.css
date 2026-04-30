@@ -220,16 +220,48 @@ li {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    padding-left: 20px;
 }
 #workwithus h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
 }
 #workwithus p {
     font-size: 18px;
     line-height: 1.6;
     color: #7e7d7d;
+    text-align: center;
+}
+.job-requirements {
+    list-style-type: none;
+    padding-right: 20px;
     text-align: left;
+    margin-top: 20px;
+}
+.job-requirements-section {
+    background-color: #f0f0f0;
+}
+.job-requirements li {
+    font-size: 16px;
+    color: #575757;
+    margin-bottom: 10px;
+}
+.job-requirements li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7e7d7d;
+    text-align: left;
+    text-decoration: none;
+}
+#workwithus a {
+    color: #9446d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+#workwithus a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
 }
